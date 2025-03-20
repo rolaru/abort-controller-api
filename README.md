@@ -2,8 +2,7 @@
 
 This is a brief demo showcasing the capabilities of the AbortController &
 AbortSignal APIs which can be used to not only cancel requests, but also to
-remove one or multiple event handlers at once or wrap libries or APIs that
-don't support any cancelation/abort feature. It also showcases how you can
+remove one or multiple event handlers at once. The demo also shows how you can
 combine multiple signals into a single one using AbortSignal.any() or how
 you can create a signal that automatically aborts after a given number of
 milliseconds using the AbortSignal.timeout() method.
